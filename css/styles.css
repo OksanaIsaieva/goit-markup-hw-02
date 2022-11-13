@@ -77,7 +77,8 @@ body {
   cursor: pointer;
 }
 /* ---------OUR-BENEFITS---------- */
-.benefits-hidden-title {
+.benefits-hidden-title,
+.portfolio--hidden-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -145,4 +146,32 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+/* --------PORTFOLIO-------- */
+.portfolio-nav-link > a {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-h-color);
+  background-color: #f5f4fa;
+}
+.portfolio-nav-link > a:hover,
+.portfolio-nav-link > a:focus {
+  background-color: var(--action-color);
+  color: #ffffff;
+}
+.portfolio-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-h-color);
+}
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
