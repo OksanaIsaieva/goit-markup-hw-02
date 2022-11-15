@@ -75,6 +75,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  color: #ffffff;
 }
 /* ---------OUR-BENEFITS---------- */
 .benefits-hidden-title,
@@ -138,6 +139,9 @@ body {
 .footer {
   background-color: #2f303a;
 }
+.footer-logo {
+  color: #ffffff;
+}
 .footer-contacts {
   text-decoration: none;
   font-family: inherit;
@@ -145,8 +149,12 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress {
   color: #ffffff;
 }
+
 /* --------PORTFOLIO-------- */
 .portfolio-nav-link > a {
   text-decoration: none;
